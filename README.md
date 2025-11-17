@@ -156,5 +156,5 @@ Navegar `\\wsl$\<DistributionName>` in File Explorer
 ```
 ![access-file-explorer](pictures/access-file-ubuntu-windows.png)
 
-# Autor
-Elaborado por Jaime Llanos Bardales - `16 Noviembre 2025`
+© 2025 Jaime Llanos Bardales.  
+Este trabajo está bajo una licencia [Creative Commons Attribution 4.0 Internacional](LICENSE).
