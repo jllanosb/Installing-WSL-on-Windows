@@ -134,7 +134,7 @@ Resultado:
 
 Apagar todas las instancias
 ```bash
-wsl --terminate Ubuntu-24.04
+wsl --shutdown
 ```
 Resultado:
 ![shutdown-all](pictures/shutdown-all.png)
@@ -157,4 +157,4 @@ Navegar `\\wsl$\<DistributionName>` in File Explorer
 ![access-file-explorer](pictures/access-file-ubuntu-windows.png)
 
 # Autor
-Elaborado por Jaime Llanos Bardales
+Elaborado por Jaime Llanos Bardales - `16 Noviembre 2025`
