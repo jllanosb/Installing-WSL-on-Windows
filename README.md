@@ -113,7 +113,7 @@ Buscar `Ubuntu` y elegir `Ubuntu 24.04 LTS`.
 Hacer clic en `Obtener` o `Instalar`.
 
 Una vez instalada, iniciar la aplicación para terminar la configuración.
-![install-ubuntu-microsoft-store](pictures/install-ubuntu24.04-wsl.png)
+![install-ubuntu-microsoft-store](pictures/install-ubuntu-store.png)
 
 # Iniciar instancia Ubuntu 24.04 en WSL2
  Abrir una ventana de PowerShell o CMD o Terminal y ejecutar el comando:
@@ -140,8 +140,21 @@ Resultado:
 ![shutdown-all](pictures/shutdown-all.png)
 # Eliminar instancia de ubuntu creada con WSL2
  Abrir una ventana de PowerShell o CMD o Terminal y ejecutar el comando:
- ```bash
+
+```bash
 wsl --unregister Ubuntu-24.04
 ```
 Resultado:
 ![eliminar-instancia](pictures/delete-instance.png)
+
+# Accessing Windows Files from Linux
+
+Navegar `\\wsl$\<DistributionName>` in File Explorer
+
+```bash
+\\wsl.localhost\Ubuntu-24.04
+```
+![access-file-explorer](pictures/access-file-ubuntu-windows.png)
+
+# Autor
+Elaborado por Jaime Llanos Bardales
